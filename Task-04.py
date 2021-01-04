@@ -8,11 +8,11 @@
 
 import shop
 
-dev1 = shop.projector('Проектор Philips NeoPix Easy+ серебристый', '111111', 'China', 'LCD', '800x600', 10000)
+dev1 = shop.projector(1, 'Проектор Philips NeoPix Easy+ серебристый', '111111', 'China', 'LCD', '800x600', 10000)
 dev1.info()
 
-dev2 = shop.printer('Принтер лазерный HP Laser 107r', '12345', 'China', 'laser', 'mono', '16ppm')
+dev2 = shop.printer(2, 'Принтер лазерный HP Laser 107r', '12345', 'China', 'laser', 'mono', '16ppm')
 dev2.info()
 
-dev3 = shop.scanner('Сканер Epson Perfection V19', '222222', 'Hungary', 'Планшетный', 'A4', '4096x4096', '4ppm')
+dev3 = shop.scanner(3, 'Сканер Epson Perfection V19', '222222', 'Hungary', 'Планшетный', 'A4', '4096x4096', '4ppm')
 dev3.info()
